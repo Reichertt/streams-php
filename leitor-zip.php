@@ -1,5 +1,6 @@
 <?php
 
+// Obriga na extração do arquivo a inserir uma senha
 $contexto = stream_context_create([
     'zip' => [
         'password' => '123456'

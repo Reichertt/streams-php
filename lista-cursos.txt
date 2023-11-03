@@ -1,3 +1,5 @@
+Arquivo onde tem as informações guardadas.
+
 Symfony Parte 1: Criação de uma API Restful
 Symfony Parte 2: Autenticação e HATEOAS
 PHP Doctrine: Introdução ao Mapeamento Objeto-Relacional

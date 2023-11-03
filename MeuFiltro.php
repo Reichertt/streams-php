@@ -1,6 +1,6 @@
 <?php
 
-class MeuFiltro extends php_user_filter
+class meuFiltro extends php_user_filter
 {
     public $stream;
 

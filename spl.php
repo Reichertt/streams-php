@@ -5,7 +5,9 @@ $arquivoCursos = new SplFileObject('cursos.csv');
 while (!$arquivoCursos->eof()) {
     $linha = $arquivoCursos->fgetcsv(';');
 
-    echo utf8_encode($linha[0]) . PHP_EOL;
+    // Maneira que estava antes, utf8_encode descontinuado
+    // echo utf8_encode($linha[0]) . PHP_EOL;
+    echo mb_convert_encoding($linha[0], 'Windows-1252') . PHP_EOL;
 }
 
 $date = new DateTime();
